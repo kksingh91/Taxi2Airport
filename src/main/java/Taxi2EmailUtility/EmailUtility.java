@@ -21,7 +21,7 @@ public class EmailUtility {
 		browserName = browserName.toLowerCase();
 		if (browserName.startsWith("c")) {
 
-			System.setProperty("webdriver.chrome.driver", "../Taxi2Airport/Browser/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "Browser/chromedriver");
 			driver = new ChromeDriver();
 		}
 
