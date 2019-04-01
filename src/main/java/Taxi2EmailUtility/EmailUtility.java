@@ -118,7 +118,7 @@ public class EmailUtility {
 	}
 
 	public static void emailLoginId() {
-		windowMaximize();
+// 		windowMaximize();
 		// processWait();
 		openUrl("https://mail.google.com/mail/u/1/#inbox");
 		driver.findElement(By.id("identifierId")).sendKeys("taxi2airport.hmc@gmail.com");
